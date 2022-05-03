@@ -11,5 +11,5 @@
 </style>
 
 <div id="logo">
-    <Logo alt="Jonathan Racioppi" />
+    <Logo/>
 </div>

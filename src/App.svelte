@@ -9,8 +9,8 @@ import NavBar from "./NavBar.svelte";
                       }
     #home{
         background: #f1eaee;
-        margin-right: 30%;
-        margin-left: 30%;
+        margin-right: 25%;
+        margin-left: 25%;
         display: block;
         overflow: auto;
 
