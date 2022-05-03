@@ -1,6 +1,7 @@
 <style>
     svg {
         size: 50px;
+        fill: #1B1817;
     }
 </style>
 

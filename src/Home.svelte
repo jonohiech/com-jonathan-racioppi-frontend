@@ -6,8 +6,8 @@
         text-align: center;
         padding: 1em;
         margin: 0 auto;
-        color: #f4f4f4;
-        font-family: Verdana;
+        color: #1B1817;
+        font-family: Tahoma, Verdana, monospace ;
     }
 
 
@@ -21,6 +21,6 @@
     <h1>Jonathan Racioppi</h1>
     <p>Developer</p>
 
-    <Socials></Socials>
+    <Socials/>
 
 </main>
