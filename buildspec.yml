@@ -12,3 +12,4 @@ phases:
     post_build:
       artifacts:
         files: ./public/**/*
+        name: BuildArtif
