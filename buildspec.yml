@@ -4,13 +4,15 @@ phases:
   install:
     runtime-version:
       nodejs: 10
-    build:
-      commands:
-        - echo Starting build
-        - npm install
-        - npm run build
-        - echo Build successful
-    post_build:
-      artifacts:
-        files:
-          - ./public/**/*
+    commands:
+      - npm install
+
+  build:
+    commands:
+      - echo Starting build
+      - npm run build
+      - echo Build successful
+  post_build:
+    artifacts:
+      files:
+        - ./public/**/*
