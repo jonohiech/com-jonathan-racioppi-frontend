@@ -10,4 +10,5 @@ phases:
         - npm run build
         - echo Build successful
     post_build:
-      artifacts: ./public/*
+      artifacts:
+        files: ./public/**/*
