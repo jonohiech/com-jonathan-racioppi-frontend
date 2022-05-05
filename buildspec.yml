@@ -7,11 +7,10 @@ phases:
     build:
       commands:
         - echo Starting build
+        - npm install
         - npm run build
         - echo Build successful
     post_build:
-      commands:
-        -echo
       artifacts:
-        files: .com-jonathan-racioppi-frontend/public/**/*
-        name: BuildArtif
+        files:
+          - ./public/**/*
