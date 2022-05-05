@@ -13,7 +13,8 @@ phases:
       - npm run build
       - echo Build successful
   post_build:
-    -ls
+    commands:
+      -ls
     artifacts:
       files:
         - ./public/**/*
