@@ -23,12 +23,12 @@
 <ul id="socials">
     <li>
         <a class=button href="https://www.linkedin.com/in/jonathan-a-racioppi/" id=linkedin type="submit">
-            <Linkedin id=linkedin></Linkedin>
+            <Linkedin />
         </a>
     </li>
     <li>
         <a class=button href="https://github.com/jonohiech/">
-            <Github></Github>
+            <Github />
         </a>
     </li>
 
