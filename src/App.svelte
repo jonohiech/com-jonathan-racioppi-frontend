@@ -9,16 +9,18 @@ import NavBar from "./NavBar.svelte";
                       }
     #home{
         background: #f1eaee;
-        margin-right: 25%;
-        margin-left: 25%;
+        margin-right: 12vmin;
+        margin-left: 12vmin;
         display: block;
-        overflow: auto;
+        overflow: hidden;
 
     }
+
+
 </style>
 
 <NavBar/>
 
-<div id="home">
+<div id="home" class="body">
     <Home/>
 </div>
