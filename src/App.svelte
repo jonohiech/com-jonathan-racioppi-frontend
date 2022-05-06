@@ -1,6 +1,14 @@
 <script>
-import Home from './Home.svelte'
+import Home from './Pages/Home.svelte'
 import NavBar from "./NavBar.svelte";
+import About from "./Pages/About.svelte";
+
+    let body = Home;
+
+     function updateBody(comp) {
+        body = comp;
+    }
+
 </script>
 
 <style>
@@ -17,10 +25,11 @@ import NavBar from "./NavBar.svelte";
     }
 
 
+
 </style>
 
-<NavBar/>
+<NavBar on:home ={() =>{updateBody(Home)}} on:about={() => {updateBody(About)}} />
 
 <div id="home" class="body">
-    <Home/>
+    <svelte:component this="{body}"/>
 </div>

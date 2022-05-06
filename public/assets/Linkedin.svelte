@@ -1,7 +1,8 @@
 <style>
     svg {
-        size: 50px;
-        fill: #1B1817;
+        display:inline-block;
+        line-height: 3.7em;
+
     }
 </style>
 
