@@ -4,12 +4,12 @@
 
 <style>
     #logo{
-        margin-left: 5%;
+        margin-left: 1em;
         margin-top: 1%;
     }
 
 </style>
 
 <div id="logo">
-    <Logo/>
+    <a href = "" > <Logo/>   </a>
 </div>
