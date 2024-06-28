@@ -5,14 +5,37 @@
 	<meta name='viewport' content='width=device-width,initial-scale=1'>
 
 	<title>Jonathan Racioppi</title>
-
+	<script>
+		const navbar = 'navbar/navbar.html';
+		const home = './index.html';
+		const about = './about/index.html';
+		const contact = './contact/index.html';
+	</script>
 	<link rel='icon' type='image/png' href='./favicon.png'>
 	<link rel='stylesheet' href='./global.css'>
-	<link rel='stylesheet' href='./build/bundle.css'>
-
-	<script defer src='./build/bundle.js'></script>
+	<script rel='module' src='../src/main.js'></script>
 </head>
 
 <body>
+<div id="navbar"></div>
+
+
+<div class="main-body">
+	<h1>Jonathan Racioppi</h1>
+	<div class="logos">
+		<div class="logo-gh">
+			<a href="https://github.com/jonohiech">
+		 		<img alt="GitHub" src="assets/Github.svg"></img>
+			</a>
+		</div>
+		<div class="logo-ln">
+			<a href="https://www.linkedin.com/in/jonathan-a-racioppi/">
+				<img alt="LinkedIn" src="assets/Linkedin.svg"></img>
+			</a>
+		</div>
+	</div>
+</div>
+
+
 </body>
 </html>

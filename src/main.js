@@ -1,9 +1,11 @@
-import App from './App.svelte';
 
-const app = new App({
-	target: document.body,
-	props: {
-	}
-});
+fetch(navbar)
+    .then(response => response.text())
+    .then(data => {
+    document.getElementById('navbar').innerHTML = data;
 
-export default app;
+    document.getElementById('about').setAttribute('href', about);
+    document.getElementById('contact').setAttribute('href', contact);
+    document.getElementById('home').setAttribute('href', home);
+
+    });
